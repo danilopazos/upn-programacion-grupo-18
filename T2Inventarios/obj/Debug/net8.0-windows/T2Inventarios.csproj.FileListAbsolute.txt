@@ -1,0 +1,16 @@
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\bin\Debug\net8.0-windows\T2Inventarios.exe
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\bin\Debug\net8.0-windows\T2Inventarios.deps.json
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\bin\Debug\net8.0-windows\T2Inventarios.runtimeconfig.json
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\bin\Debug\net8.0-windows\T2Inventarios.dll
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\bin\Debug\net8.0-windows\T2Inventarios.pdb
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.Form1.resources
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.csproj.GenerateResource.cache
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.AssemblyInfoInputs.cache
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.AssemblyInfo.cs
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.csproj.CoreCompileInputs.cache
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.dll
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\refint\T2Inventarios.dll
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.pdb
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\T2Inventarios.genruntimeconfig.cache
+C:\Users\jerre\source\repos\T2Inventarios\T2Inventarios\obj\Debug\net8.0-windows\ref\T2Inventarios.dll
