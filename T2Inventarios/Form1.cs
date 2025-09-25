@@ -145,7 +145,7 @@ namespace T2Inventarios
                 return;
             }
 
-            // Busqueda
+            // Busqueda desde cualquier punto, todas las coincidencias
             var resultados = G18_productos
                 .Where(p => p.G18_Nombre.Contains(G18_busqueda, StringComparison.OrdinalIgnoreCase))
                 .ToList();
@@ -168,6 +168,7 @@ namespace T2Inventarios
 
         private void btnAscendente_Click(object sender, EventArgs e)
         {
+            // Ordena
             var G18_orden_asc = G18_productos
                 .OrderBy(p => p.G18_Precio)
                 .ToList();
@@ -177,6 +178,7 @@ namespace T2Inventarios
 
         private void btnDescendente_Click(object sender, EventArgs e)
         {
+            // Ordena
             var G18_orden_desc = G18_productos
                 .OrderByDescending(p => p.G18_Precio)
                 .ToList();
@@ -195,6 +197,7 @@ namespace T2Inventarios
 
             List<Producto> G18_lista = G18_productos.ToList();
 
+            // Llama a funcion recursiva
             int G18_total = CalcularStockRecursivo(G18_lista, G18_categoriaSeleccionada, 0);
 
             txtResultado.Text = G18_total.ToString();
@@ -205,6 +208,7 @@ namespace T2Inventarios
             if (G18_index >= G18_productos.Count)
                 return 0;
 
+            // Sumatoria por cantidad
             int cantidadActual = (G18_productos[G18_index].G18_Categoria.ToString() == G18_categoria)
                 ? G18_productos[G18_index].G18_Cantidad
                 : 0;
