@@ -8,24 +8,24 @@ namespace T2Inventarios
 {
     public class Producto
     {
-        public string Codigo { get; set; }
-        public string Nombre { get; set; }
-        public Categoria Categoria { get; set; }
-        public decimal Precio { get; set; }
-        public int Cantidad { get; set; }
+        public string G18_Codigo { get; set; }
+        public string G18_Nombre { get; set; }
+        public Categoria G18_Categoria { get; set; }
+        public decimal G18_Precio { get; set; }
+        public int G18_Cantidad { get; set; }
 
-        public Producto(string codigo, string nombre, Categoria categoria, decimal precio, int cantidad)
+        public Producto(string G18_codigo, string G18_nombre, Categoria G18_categoria, decimal G18_precio, int G18_cantidad)
         {
-            Codigo = codigo;
-            Nombre = nombre;
-            Categoria = categoria;
-            Precio = precio;
-            Cantidad = cantidad;
+            G18_Codigo = G18_codigo;
+            G18_Nombre = G18_nombre;
+            G18_Categoria = G18_categoria;
+            G18_Precio = G18_precio;
+            G18_Cantidad = G18_cantidad;
         }
 
         public override string ToString()
         {
-            return $"{Codigo} - {Nombre} - {Categoria.Nombre} - ${Precio} - x{Cantidad}und";
+            return $"{G18_Codigo} - {G18_Nombre} - {G18_Categoria.G18_Nombre} - ${G18_Precio} - x{G18_Cantidad}und";
         }
     }
 }

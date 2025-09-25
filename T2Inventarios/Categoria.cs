@@ -8,16 +8,16 @@ namespace T2Inventarios
 {
     public class Categoria
     {
-        public string Nombre { get; set; }
+        public string G18_Nombre { get; set; }
 
-        public Categoria(string nombre)
+        public Categoria(string G18_nombre)
         {
-            Nombre = nombre;
+            G18_Nombre = G18_nombre;
         }
 
         public override string ToString()
         {
-            return Nombre;
+            return G18_Nombre;
         }
     }
 }
